@@ -1,0 +1,23 @@
+* {
+
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 90px 550px auto;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color: crimson;
+
+
+}
+
+div#Challenge {
+    background: rgb(255, 255, 179);
+    display: flex;
+    justify-content: center;
+    align-items: revert;
+    grid-column: 1/3;
+}
